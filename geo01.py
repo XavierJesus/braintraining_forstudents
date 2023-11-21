@@ -6,7 +6,6 @@ import tkinter as tk
 import random
 from math import sqrt
 import time
-import database
 import datetime
 
 
@@ -88,8 +87,8 @@ def next_point(event):
 
 
 def save_game(event):
-    # TODO
-    print("dans save")
+    quit()
+
 
 
 def display_timer():
